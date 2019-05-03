@@ -1,5 +1,5 @@
-/*     # ignore all under the root directoty
-/**/   # ignore all sub directoty
+/*    # ignore all under the root directoty
+**/    # ignore all sub directoty
 !/*.m  # include all .m files under the root dir
 !/*.fig
 
