@@ -381,7 +381,7 @@ algo = get(handles.ppm_algo,'value');
 %
 %shift and add + deconvlution
 if algo == 1
-    robustSR3DFct(lr_set, shift_xy, shift_z, psf, lateralEnhanFactor, axialEnhanFactor, true);
+    robustSR3D(lr_set, shift_xy, shift_z, psf, lateralEnhanFactor, axialEnhanFactor, true);
 elseif algo == 2
     fastRobustSR(lr_set, psf, lr_voxel_lateral, lightsheetThickness, scanStep, offAxisAngle, [lateralEnhanFactor, axialEnhanFactor], false);
 end
